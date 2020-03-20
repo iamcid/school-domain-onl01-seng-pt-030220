@@ -11,8 +11,13 @@ class School
     roster[grade] << student_name
   end
   
-  def grade(student_name)
-    roster[student_name]
+  def grade(student_grade)
+    roster[student_grade]
+  end
+  
+  def sort
+    sorted = {}
+    roster.each do 
     
   
 end
